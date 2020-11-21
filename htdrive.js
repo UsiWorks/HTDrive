@@ -9,3 +9,5 @@ export class Drive {
     document.body.appendChild(smain);
   }
 }
+
+console.log('HTDrive successfully loaded');
