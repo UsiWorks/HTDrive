@@ -21,3 +21,5 @@ SystemJS.config({
 
 SystemJS.import('./app')
   .catch(console.error.bind(console));
+
+console.log('System config loaded');
