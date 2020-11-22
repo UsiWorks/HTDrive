@@ -54,14 +54,14 @@ Drive.config({
 ## Drive elements
 These elements are to be put in app.js
 
-### Say [![Drive.say]]
+### Say [Drive.say]
 ```js
 Drive.say({
   data: "/* What you want to say */",
 });
 ```
 
-### Custom [![Drive.custom]]
+### Custom [Drive.custom]
 ```js
 Drive.custom({
   elements: {
