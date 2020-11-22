@@ -9,7 +9,7 @@ Certain files to certain things... make sure to read this!
 ### app.js
 The app is the place for your Drive Elements.
 Drive elements are like this:
-```
+```js
 Drive.custom({
   elements: {
     prefix: 'YOUR PREFIX HERE',
