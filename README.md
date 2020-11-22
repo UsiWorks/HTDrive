@@ -24,3 +24,49 @@ This is the main JavaScript file, **DO NOT USE DRIVE ELEMENTS**
 
 ### index.html
 The console file.
+
+# htdrive.js
+HTDrive (hypertext drive) is a powerful console tool used for logging, debugging and more.
+
+### Configuration
+Placed inside app.js (This is there automatically).
+```js
+import { Drive } from './htdrive';
+
+Drive.config({
+  baseURL: null,
+  extension: true,
+  main: './main',
+  packages: {
+    defaultExtension: '.js',
+    js: {
+      
+    },
+    css: {
+      
+    },
+  }
+}); 
+
+// Drive elements here...
+```
+
+## Drive elements
+These elements are to be put in app.js
+
+### Say [![Drive.say]]
+```js
+Drive.say({
+  data: "/* What you want to say */",
+});
+```
+
+### Custom [![Drive.custom]]
+```js
+Drive.custom({
+  elements: {
+    prefix: "A-PREFIX",
+    color: "HEX", /* optional */
+    data: "YOUR TEXT HERE",
+  }
+});
